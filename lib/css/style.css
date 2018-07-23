@@ -106,11 +106,13 @@ h3 {
   box-sizing: border-box;
 }
 
+[data-layout~="1col"] .column--side, 
 [data-layout~="2col"] .column--side 
 {
   padding-left : 12px;
 }
 
+[data-layout~="1col"][data-layout~="left"] .column--side, 
 [data-layout~="2col"][data-layout~="left"] .column--side 
 {
   padding-left : 0;
