@@ -244,6 +244,7 @@ ul.menu.mouseable.menu--vertical.menu--flat a.hover {
   background-color: transparent;
   display: inline-block;
   float: right;
+  vertical-align: top;
 }
 
 .fedora ul.menu li,

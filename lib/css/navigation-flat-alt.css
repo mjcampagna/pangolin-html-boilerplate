@@ -1,0 +1,50 @@
+/**
+* Flatten
+**/
+
+ul.menu.menu--vertical.menu--flat,
+ul.menu.menu--vertical.menu--flat li,
+ul.menu.menu--vertical.menu--flat li ul {
+  border: none;
+}
+
+ul.menu.menu--vertical.menu--flat ul {
+  box-shadow: none;
+  opacity: 1;
+  position: static;
+  visibility: visible;
+  width: auto;
+}
+
+ul.menu.menu--vertical.menu--flat li,
+ul.menu.menu--vertical.menu--flat li a,
+ul.menu.menu--vertical.menu--flat li span {
+  line-height: 36px;
+  padding: 0;
+}
+
+ul.menu.menu--vertical.menu--flat li {
+  padding: 0 0 0 12px;
+}
+
+ul.menu.menu--vertical.menu--flat > .menu-item {
+	border-top: 1px solid #000000;
+}
+
+ul.menu.menu--vertical.menu--flat ul {
+	background-color: rgba(255,255,255,0.1);
+}
+
+ul.menu.menu--vertical.menu--flat .menu-item.menu-item-has-children ul {
+  margin-bottom: 12px;
+}
+
+ul.menu.menu--vertical.menu--flat a:hover {
+	text-decoration: underline;
+}
+
+ul.menu.menu--vertical.menu--flat .menu-item.menu-item-has-children > a::after, 
+ul.menu.menu--vertical.menu--flat .menu-item.menu-item-has-children > span::after {
+  content: '\f107';
+  line-height: 36px;
+}
